@@ -1,5 +1,5 @@
 # MSc Thesis 
 ## Master Information Studies: Data Science - University of Amsterdam
-### Gentrification and Storefront Signage in Amsterdam: A Deep Learning Approach with Streetview Imagery
+### Gentrification in Storefront Signage in Amsterdam: A Machine Learning Approach with Street View Imagery
 **Author:** Anh Tran - **Supervisor:** Tim Alpherts
 
