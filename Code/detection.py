@@ -49,6 +49,7 @@ def extract_text(origin, destination):
                     pass
             
             # for free-form text boxes
+            # source: https://jdhao.github.io/2019/02/23/crop_rotated_rectangle_opencv/
             for i, box in enumerate(result[1][0]):
                 instances += 1
                 rect = cv2.minAreaRect(np.array(box, dtype=np.int32))
