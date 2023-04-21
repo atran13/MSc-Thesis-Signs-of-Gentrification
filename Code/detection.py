@@ -20,7 +20,6 @@ def extract_text(origin, destination):
         num_file += 1
         filename = os.path.split(file)[1] # {name}.jpg
         dir = os.path.join(destination, filename)
-        os.makedirs(dir) # one folder for each image
 
         # Read img
         img = cv2.imread(file)
@@ -35,6 +34,8 @@ def extract_text(origin, destination):
         if not any([result[0][0], result[1][0]]): # if no text detected
             no_text += 1
         else:
+            os.makedirs(dir) # make folder for image with text
+            
             # for rectangular text boxes
             for i, box in enumerate(result[0][0]):
                 instances += 1
