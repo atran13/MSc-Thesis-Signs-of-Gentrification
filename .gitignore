@@ -1,4 +1,9 @@
 *.jpg
 *.xml
+*.shp
+*.dbf
+*.prj
+*.shx
+*.ini
 *.DS_Store
 *-checkpoint.ipynb
